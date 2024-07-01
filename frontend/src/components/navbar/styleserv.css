@@ -1,0 +1,699 @@
+/*@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+/*navbar */
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
+/*icono*/
+@import url("https://fonts.googleapis.com/css2?family=Text+Me+One&display=swap");
+/* footer: font-family: 'Text Me One', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap");
+/* title body: font-family: 'Mochiy Pop P One', sans-serif;*/
+*/
+
+:root {
+    --font-body: 'Mochiy Pop P One', sans-serif;
+    --font-navbar: "Montserrat", sans-serif;
+    --1-color: #07c2b2;
+	--2-color: #e3bebb;
+	--3-color: #efefef;
+}
+
+* {
+    font-family: var(--font);
+    list-style: none;
+    text-decoration: none !important;
+    margin: 0;
+	padding: 0;
+}
+
+body {
+    background-color: #fbfbfb61;
+}
+
+.navbar {
+    position: absolute;
+    margin: 1.4em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+}
+
+.navbar a {
+    color: whitesmoke;
+    font-size: medium;
+    font-weight: bold;
+    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar a:hover {
+    /*Efecto de raya bajo y sombreado por encima*/
+    color: wheat;
+}
+
+.navbar .logo {
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 0.1em;
+    margin-left: 2em;
+}
+
+.navbar .nav-links ul {
+    display: flex;
+    margin-top: 1em;
+    align-items: center;
+}
+
+.navbar .nav-links ul li {
+    margin: 0 1.2em;
+}
+
+.nav-links ul li .carro {
+    width: auto !important;
+    height: auto !important;
+    margin: 1px 25px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.navbar .nav-links ul li .active a {
+    color: #05161A;
+    font-weight: 600;
+}
+
+.navbar .menu-hamburger {
+    display: none;
+    position: absolute;
+    right: 50px;
+    width: 50px;
+    padding: 1em;
+    cursor: pointer;
+}
+
+menuIcon {
+    display: none;
+}
+
+
+.font-weight {
+    font-weight: bold;
+    text-align: center;
+    font-family: "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell var(--1er-color);
+
+}
+
+.subtitlecard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    border-radius: 13px 103px 10px 10px;
+    font-weight: lighter;
+    text-align: center;
+    width: 80%;
+    margin-bottom: 30px;
+
+}
+
+.parejas {
+    width: 80%;
+}
+
+
+/* Botón*/
+.boton {
+    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(241, 236, 236);
+    background-color: #f563bbc0;
+    border: none;
+    padding: 0.8em 1em;
+    line-height: 1;
+    font-size: 1.3em;
+    border-radius: 42px;
+    font-weight: 800;
+    position: relative;
+    transition: all 0.4ms ease;
+    width: 9em;
+    display: flex;
+    z-index: 2;
+    margin-left: 24vh;
+    margin-top: -60vh;
+    margin-bottom: 5vh;
+}
+
+.boton:hover {
+    background: rgba(255, 98, 174, 0.948);
+    border: 3px solid;
+    transform: translate(18px);
+}
+
+.boton::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, rgba(240, 194, 222, 0.903), rgb(232, 108, 147));
+    background-size: 800%;
+    border-radius: 10px;
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+
+}
+
+
+.bannerservices h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    width: 550px;
+    margin-left: 25vh;
+    margin-top: -28vh;
+}
+
+.botonbannerservices {
+    margin-top: 50px;
+    margin-left: -370px;
+}
+
+.icons {
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    padding: 0 5%;
+    transform: translateY(-60%);
+}
+
+.icons i {
+    display: block;
+    margin: 16px 0;
+    margin-top: 3vh;
+    font-size: 28px;
+    color: white;
+    transition: all 0.50s ease;
+}
+
+.icons i:hover {
+    color: rgb(12, 186, 189);
+    transform: translateY(-7px);
+}
+
+.icontepi {
+    width: 50%;
+}
+
+/********/
+.groupcardtepi {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 80px auto;
+
+}
+
+
+/*Botón agenda tu cita*/
+.buttonservices {
+    font-weight: bolder;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    padding: 20px 30px;
+    border: 2px solid #1ffae8;
+    background-color: #08978e;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 50px;
+    transition: 1000ms;
+    cursor: pointer;
+    width: 240px;
+}
+
+.buttonservices:hover {
+    transition: 800ms;
+    padding: 15px 50px;
+    transform: translateY(-0px);
+    background-color: #ff709b;
+    color: white;
+    border: solid 2px #f9c5dd;
+    font-weight: bolder;
+
+}
+
+.containerind .buttonservicesind {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+/*************/
+
+
+/*Botón Haz una prueba*/
+.prueba {
+    color: rgb(3, 70, 72);
+    background-color: #63ebf5c0;
+    box-shadow: rgb(5, 142, 152) 0px 0px 0px 0px;
+    cursor: pointer;
+    padding: 1em 2em;
+    font-size: 1em;
+    border-radius: 42px;
+    font-weight: 600;
+    transition: all 0.40ms ease;
+    width: 15em;
+
+
+}
+
+.prueba:hover {
+    background: rgba(4, 186, 161, 0.948);
+    border: 3px solid;
+    transform: translate(18px);
+}
+
+.prueba::before {
+    content: "";
+    left: 0;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, rgba(194, 240, 238, 0.903), rgb(108, 232, 228));
+    background-size: 800%;
+    border-radius: 10px;
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+
+}
+
+/*Evaluacón psicológica*/
+.titleevalpsi {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1px;
+    font-weight: bolder;
+    font-size: 6vh;
+    color: #072e33;
+}
+
+.imgevalpsi img {
+    width: 70rem;
+    border-radius: 6px;
+
+}
+
+.textevalpsi {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 10px 0px 0px 30px;
+    font-weight: lighter;
+    margin: 40px 0px;
+}
+
+.containerevalpsi {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 77%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.containertexteval {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+
+/*Terapia Individual*/
+.containerservicetein {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+
+.containerind {
+    margin-top: 100px;
+    margin-bottom: 10vh;
+    font-size: 4vh;
+    font-weight: bold;
+    color: #072e33;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-wrap: nowrap;
+}
+
+.img2 {
+    width: 70%;
+}
+
+.sueltas {
+    color: #0c2839;
+    font-size: 9vh;
+
+}
+
+.enfoques {
+    color: #0e4757;
+    width: 95%;
+    font-size: smaller;
+    font-weight: lighter;
+    margin-bottom: 9vh;
+    text-align: center;
+    font-size: 30px;
+}
+
+.cardtepi {
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 9vh;
+    width: calc(80% / 4);
+    flex-direction: row;
+}
+
+.onecardtepi {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+.onecardtepi:hover {
+    transform: scale(1.05);
+    background-color: #17b5bb00;
+    letter-spacing: 0px;
+}
+
+.onecardtepi p {
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
+    font-size: 13px;
+    color: rgba(4, 60, 75, 0.832);
+    font-weight: lighter;
+}
+
+.onecardtepi h5 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.onecardtepi .tcc {
+    color: black;
+    font-size: 15px;
+    font-family: 'Font Awesome 6 Solid', sans-serif;
+}
+
+/*Terapia Pareja*/
+.containertepa {
+    margin: 100px auto;
+    font-weight: bolder;
+    font-size: 4vh;
+    color: #072e33;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 50px;
+    width: 80%;
+}
+
+.containertepaboton {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.titletepa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Segoe UI", Roboto, Oxygen, Ubuntu, var(--1er-color) Cantarell;
+}
+
+.boxuptepa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+
+/*************/
+
+
+/*Terapia Infantil*/
+.row {
+    justify-content: center;
+    flex-wrap: wrap
+}
+
+.containerteinf {
+    font-size: 4vh;
+    color: #012d2dfc;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ti {
+    font-size: 10vh;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Segoe UI", Roboto, Oxygen, Ubuntu, var(--1er-color) Cantarell;
+}
+
+
+
+
+.top {
+    color: #05161a;
+    margin-top: 0vh;
+}
+
+
+.tepainboton {
+    margin-bottom: 20px;
+}
+
+.button {
+    font-weight: bolder;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    padding: 20px 30px;
+    border: 2px solid #1ffae8;
+    background-color: #08978e;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 50px;
+    transition: 1000ms;
+    cursor: pointer;
+    margin: 10vh -5vh 14vh 12vh;
+}
+
+.button:hover {
+    transition: 800ms;
+    padding: 15px 50px;
+    transform: translateY(-0px);
+    background-color: #ff709b;
+    color: white;
+    border: solid 2px #f9c5dd;
+    font-weight: bolder;
+}
+
+.onecardteinf {
+    width: 100%;
+    height: 290px;
+    color: #072e33;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+.onecardteinf:hover {
+    transform: scale(1.03);
+    background-color: #5e97ba00;
+    letter-spacing: 0px;
+}
+
+.onecardteinf p {
+    margin-left: 40px;
+    margin-right: 40px;
+    align-items: center;
+    font-size: 18px;
+}
+
+.onecardteinf h5 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.cardteinf {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width: calc(90% / 3);
+    justify-content: center;
+}
+
+
+
+@media screen and (max-width: 750px) {
+    .bannerservices h1 {
+        text-align: center;
+        font-size: 2px;
+        color: rgb(255, 255, 255);
+        width: 250px;
+        height: auto;
+
+    }
+
+    /* Botón responsive*/
+    .boton {
+
+        color: rgb(241, 236, 236);
+        background-color: #f563bbc0;
+        border: none;
+        padding: 0.8em 1em;
+        line-height: 1;
+        font-size: 1.3em;
+        border-radius: 42px;
+        font-weight: 800;
+        position: absolute;
+        transition: all 0.40ms ease;
+        width: 10em;
+        display: flex;
+        z-index: 2;
+        margin-left: 28vh;
+        margin-top: -45vh;
+        margin-bottom: 5vh;
+    }
+
+    .boton:hover {
+        background: rgba(255, 98, 174, 0.948);
+        border: 3px solid;
+        transform: translate(18px);
+        position: relative;
+    }
+
+    .boton::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(45deg, rgba(240, 194, 222, 0.903), rgb(232, 108, 147));
+        background-size: 800%;
+        border-radius: 10px;
+        filter: blur(8px);
+        animation: glowing 20s linear infinite;
+
+    }
+
+
+    .navbar {
+        padding-right: 0;
+        margin: 0;
+    }
+
+    .navbar .logo {
+        font-size: 32px;
+		line-height: .2;
+		text-align: center;
+		color: #fff !important;
+		background-color: #83227e;
+		border-radius: 6px;
+		height: auto;
+		max-width: inherit;
+		min-width: inherit;
+		box-shadow: none !important;
+		transition: all ease-in-out 0s;
+		position: absolute;
+		z-index: 12;
+		justify-content: center;
+		align-items: center;
+    }
+
+
+    .navbar .menu-hamburger {
+        margin-top: 60vh;
+        display: block;
+        z-index: 12;
+
+    }
+
+    .nav-links {
+        top: 0;
+        z-index: 10;
+        position: absolute;
+        background-color: rgba(36, 50, 50, 0.472);
+        backdrop-filter: blur(10px);
+        width: 40%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 67%;
+        transition: all 0.5s ease;
+    }
+
+    .nav-links.mobile-menu {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .nav-links ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar .nav-links ul li {
+        margin: 25px 30px;
+        margin-top: 9vh;
+        font-size: 1.2em;
+    }
+
+    .imgevalpsi {
+        display: none;
+    }
+
+    .textevalpsi {
+        display: flex;
+        justify-content: center;
+        margin-left: 3vh;
+    }
+}
+

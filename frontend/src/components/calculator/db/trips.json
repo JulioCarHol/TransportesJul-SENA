@@ -1,0 +1,25 @@
+{
+  "origin": "Ciudad A",
+  "destination": "Ciudad B",
+  "cost": 100
+}
+{
+  "origin": "Ciudad A",
+  "destination": "Ciudad C",
+  "cost": 200
+}
+{
+  "origin": "Ciudad B",
+  "destination": "Ciudad C",
+  "cost": 150
+}
+{
+  "origin": "Ciudad B",
+  "destination": "Ciudad D",
+  "cost": 250
+}
+{
+  "origin": "Ciudad C",
+  "destination": "Ciudad D",
+  "cost": 100
+}
