@@ -20,10 +20,9 @@ import {
   AlertDescription
 } from "@chakra-ui/react";
 import { FaUserAlt, FaLock } from "react-icons/fa";
-import { useNavigate } from 'react-router-dom';
-import { Link } from "react-router-dom";
+import { useNavigate, Link } from 'react-router-dom';
 
-import './css/login-register.css';
+import './css/login-register.css'
 
 const CFaUserAlt = chakra(FaUserAlt);
 const CFaLock = chakra(FaLock);
@@ -55,12 +54,11 @@ const Login = () => {
         navigate('/user-panel');
       } else {
         setError(
-          <Alert status='error'>
-            <AlertIcon />
-            <AlertTitle>Correo o contraseña incorrecta</AlertTitle>
-            <AlertDescription>verificar nuevamente</AlertDescription>
-          </Alert>
-        );
+        <Alert status='error'>
+          <AlertIcon />
+          <AlertTitle>Correo o contraseña incorrecta</AlertTitle>
+          <AlertDescription>verificar nuevamente</AlertDescription>
+        </Alert>);
       }
     } catch (error) {
       console.error('Error en el inicio de sesión:', error);

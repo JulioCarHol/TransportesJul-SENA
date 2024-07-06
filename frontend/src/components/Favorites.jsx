@@ -1,4 +1,3 @@
-// src/components/Favorites.jsx
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import {
@@ -11,9 +10,8 @@ import {
   Tag
 } from '@chakra-ui/react';
 import { IntlProvider, FormattedNumber } from 'react-intl';
-
-
-
+import Swal from 'sweetalert2';
+// src/components/Favorites.jsx
 const CustomCardComponent = React.forwardRef(({ children, ...rest }, ref) => (
   <Box p="1">
     <Tag ref={ref} {...rest}>
@@ -38,7 +36,14 @@ const Favorites = () => {
         });
         setFavorites(response.data);
       } catch (error) {
-        console.error("Error al agregar a favoritos: ", error);
+        console.error("Error al obtener favoritos: ", error);
+        Swal.fire({
+          position: 'top-end',
+          icon: 'error',
+          title: 'Error al obtener favoritos',
+          showConfirmButton: false,
+          timer: 1500
+        });
       }
     };
     fetchFavorites();
@@ -46,8 +51,9 @@ const Favorites = () => {
 
   const removeFromFavorites = async (tripId) => {
     try {
+      const userId = localStorage.getItem('userId');
       const response = await axios.delete(
-        `${process.env.REACT_APP_API_URL}/auth/favorites/${tripId}`,
+        `${process.env.REACT_APP_API_URL}/auth/favorites/${userId}/${tripId}`,
         {
           headers: {
             Authorization: `Bearer ${localStorage.getItem('token')}`,
@@ -56,14 +62,27 @@ const Favorites = () => {
       );
       if (response.status === 200) {
         setFavorites(favorites.filter((trip) => trip._id !== tripId));
+        Swal.fire({
+          position: 'center',
+          icon: 'info',
+          title: 'Eliminado de favoritos',
+          showConfirmButton: false,
+          timer: 1500
+        });
       }
     } catch (error) {
       console.error("Error al eliminar favoritos:", error);
+      Swal.fire({
+        position: 'center',
+        icon: 'error',
+        title: 'Error al eliminar favoritos',
+        showConfirmButton: false,
+        timer: 1500
+      });
     }
   };
 
   return (
-<box>
     <Box>
       {favorites.map((trip) => (
         <Flex
@@ -154,7 +173,6 @@ const Favorites = () => {
         </Flex>
       ))}
     </Box>
-    </box>
   );
 };
 

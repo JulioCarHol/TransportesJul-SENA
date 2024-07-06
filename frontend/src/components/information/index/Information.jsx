@@ -6,10 +6,12 @@ import image0 from './images/inicio-descripcion.jpg'
 import image1 from './images/inicio-populares-1.webp'
 import image2 from './images/inicio-populares-2.jpg'
 import image3 from './images/inicio-populares-3.jpg'
-import { Box, Badge, Image } from '@chakra-ui/react'
+import image4 from './images/inicio-populares-4.jpg'
+import image5 from './images/inicio-populares-5.jpg'
+import image6 from './images/inicio-populares-6.png'
+
+import { Box, Badge, Image, Flex, SimpleGrid } from '@chakra-ui/react'
 import { StarIcon } from '@chakra-ui/icons';
-import { Flex } from "@chakra-ui/react"
-import { SimpleGrid } from '@chakra-ui/react'
 
 function Information(){
     const property = {
@@ -19,14 +21,29 @@ function Information(){
         rating1: 5,
 
         imageUrl2: image2,
-        imageAlt2: 'Parque Nacional Tayrona',
-        title2: 'Parque Nacional Tayrona',
+        imageAlt2: 'Santa Marta',
+        title2: 'Santa Marta',
         rating2: 5,
 
         imageUrl3: image3,
-        imageAlt3: 'Caño Cristales',
-        title3: 'Caño Cristales',
+        imageAlt3: 'Sierra de la Macarena',
+        title3: 'Sierra de la Macarena',
         rating3: 5,
+
+        imageUrl4: image4,
+        imageAlt4: 'Leticia',
+        title4: 'Leticia',
+        rating4: 5,
+
+        imageUrl5: image5,
+        imageAlt5: 'Manizales',
+        title5: 'Manizales',
+        rating5: 5,
+
+        imageUrl6: image6,
+        imageAlt6: 'Bogota D.C',
+        title6: 'Bogota D.C',
+        rating6: 5,
       }
     return(
         <>
@@ -55,16 +72,16 @@ function Information(){
 
 
       
-<Flex display='flex' width='auto' justifyContent="center" mt='10' mb='20'>
+<Flex display='flex' width='auto' justifyContent="center" pt='12' mb='20' pb="10" marginBottom="0px"  backgroundColor="#f4f4ec">
 
-<SimpleGrid columns={3} spacing={20} minChildWidth='200px' display="flex"  >
+<SimpleGrid columns={3} spacing={20} minChildWidth='200px' display="flex">
 
-  <Box maxW='sm' borderWidth='1px' borderRadius='lg' overflow='hidden'>
+  <Box maxW='sm' borderWidth='1px' borderRadius='lg' overflow='hidden' backgroundColor="white">
       <Image src={property.imageUrl1} alt={property.imageAlt1} />
       <Box p='6'>
         <Box display='flex' alignItems='baseline'>
           <Badge borderRadius='full' px='2' colorScheme='teal'>
-            Caribe
+            Region Caribe
           </Badge>
           <Box
             color='gray.500'
@@ -98,12 +115,12 @@ function Information(){
       </Box>
     </Box>
  
-    <Box maxW='sm' borderWidth='1px' borderRadius='lg' overflow='hidden'>
+    <Box maxW='sm' borderWidth='1px' borderRadius='lg' overflow='hidden' backgroundColor="white">
       <Image src={property.imageUrl2} alt={property.imageAlt2} />
       <Box p='6'>
         <Box display='flex' alignItems='baseline'>
           <Badge borderRadius='full' px='2' colorScheme='teal'>
-            Caribe
+            Region Caribe
           </Badge>
           <Box
             color='gray.500'
@@ -137,14 +154,12 @@ function Information(){
       </Box>
     </Box>
 
-
-
-   <Box maxW='sm' borderWidth='1px' borderRadius='lg' overflow='hidden'>
+   <Box maxW='sm' borderWidth='1px' borderRadius='lg' overflow='hidden' backgroundColor="white" >
       <Image src={property.imageUrl3} alt={property.imageAlt3} />
       <Box p='6'>
         <Box display='flex' alignItems='baseline'>
           <Badge borderRadius='full' px='2' colorScheme='teal'>
-            Orinoquia
+            Region Orinoquia
           </Badge>
           <Box
             color='gray.500'
@@ -178,8 +193,134 @@ function Information(){
       </Box>
     </Box>
 </SimpleGrid>
+
 </Flex>
 
+
+
+<Flex display='flex' width='auto' justifyContent="center" pt='12' mb='20' pb="10" marginBottom="5px"  backgroundColor="#f4f4ec">
+
+<SimpleGrid columns={3} spacing={20} minChildWidth='200px' display="flex">
+
+  <Box maxW='sm' borderWidth='1px' borderRadius='lg' overflow='hidden' backgroundColor="white">
+      <Image src={property.imageUrl4} alt={property.imageAlt4} />
+      <Box p='6'>
+        <Box display='flex' alignItems='baseline'>
+          <Badge borderRadius='full' px='2' colorScheme='teal'>
+            Amazonia
+          </Badge>
+          <Box
+            color='gray.500'
+            fontWeight='semibold'
+            letterSpacing='wide'
+            fontSize='xs'
+            textTransform='uppercase'
+            ml='2'
+          >
+          </Box>
+        </Box>
+        <Box
+          mt='1'
+          fontWeight='semibold'
+          as='h4'
+          lineHeight='tight'
+          noOfLines={1}
+        >
+          {property.title4}
+        </Box>
+        <Box display='flex' mt='2' alignItems='center'>
+          {Array(5)
+            .fill('')
+            .map((_, i) => (
+              <StarIcon
+                key={i}
+                color={i < property.rating4 ? 'teal.500' : 'gray.300'}
+              />
+            ))}
+        </Box>
+      </Box>
+    </Box>
+ 
+    <Box maxW='sm' borderWidth='1px' borderRadius='lg' overflow='hidden' backgroundColor="white">
+      <Image src={property.imageUrl5} alt={property.imageAlt5} />
+      <Box p='6'>
+        <Box display='flex' alignItems='baseline'>
+          <Badge borderRadius='full' px='2' colorScheme='teal'>
+            Region cafetera
+          </Badge>
+          <Box
+            color='gray.500'
+            fontWeight='semibold'
+            letterSpacing='wide'
+            fontSize='xs'
+            textTransform='uppercase'
+            ml='2'
+          >
+          </Box>
+        </Box>
+        <Box
+          mt='1'
+          fontWeight='semibold'
+          as='h4'
+          lineHeight='tight'
+          noOfLines={1}
+        >
+          {property.title5}
+        </Box>
+        <Box display='flex' mt='2' alignItems='center'>
+          {Array(5)
+            .fill('')
+            .map((_, i) => (
+              <StarIcon
+                key={i}
+                color={i < property.rating5 ? 'teal.500' : 'gray.300'}
+              />
+            ))}
+        </Box>
+      </Box>
+    </Box>
+
+   <Box maxW='sm' borderWidth='1px' borderRadius='lg' overflow='hidden' backgroundColor="white" >
+      <Image src={property.imageUrl6} alt={property.imageAlt6} />
+      <Box p='6'>
+        <Box display='flex' alignItems='baseline'>
+          <Badge borderRadius='full' px='2' colorScheme='teal'>
+            Region andina
+          </Badge>
+          <Box
+            color='gray.500'
+            fontWeight='semibold'
+            letterSpacing='wide'
+            fontSize='xs'
+            textTransform='uppercase'
+            ml='2'
+          >
+          </Box>
+        </Box>
+        <Box
+          mt='1'
+          fontWeight='semibold'
+          as='h4'
+          lineHeight='tight'
+          noOfLines={1}
+        >
+          {property.title6}
+        </Box>
+        <Box display='flex' mt='2' alignItems='center'>
+          {Array(5)
+            .fill('')
+            .map((_, i) => (
+              <StarIcon
+                key={i}
+                color={i < property.rating6 ? 'teal.500' : 'gray.300'}
+              />
+            ))}
+        </Box>
+      </Box>
+    </Box>
+</SimpleGrid>
+
+</Flex>
         <Footer />
         </>
       

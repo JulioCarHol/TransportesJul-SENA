@@ -15,7 +15,6 @@ import { FaClipboardCheck } from "react-icons/fa";
 import { HiCode, HiCollection } from "react-icons/hi";
 import { MdHome, MdKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-router-dom";
-import { jwtDecode } from 'jwt-decode'; 
 
 const Sidebar = ({ children }) => {
   const sidebar = useDisclosure();
@@ -24,13 +23,6 @@ const Sidebar = ({ children }) => {
   const navItemHoverBg = useColorModeValue("gray.100", "gray.900");
   const navItemHoverColor = useColorModeValue("gray.900", "gray.200");
   const iconHoverColor = useColorModeValue("gray.600", "gray.300");
-
-  const token = localStorage.getItem('token');
-  let role;
-  if (token) {
-    const decoded = jwtDecode(token);
-    role = decoded.role;
-  }
 
   const NavItem = (props) => {
     const { icon, children, ...rest } = props;
@@ -118,11 +110,6 @@ const Sidebar = ({ children }) => {
             transform={integrations.isOpen && "rotate(90deg)"}
           />
         </NavItem>
-        {role === 'admin' && (
-          <NavItem icon={HiCode}>
-            <Link to="/admin-dashboard">Modificaciones</Link>
-          </NavItem>
-        )}
         <Collapse in={integrations.isOpen}>
           <NavItem pl="12" py="2">
             Ajustes
@@ -131,6 +118,9 @@ const Sidebar = ({ children }) => {
             <Link to="/login">Cerrar sesión</Link>
           </NavItem>
         </Collapse>
+        <NavItem icon={HiCode}>
+          <Link to="/admin-dashboard">Admin Dashboard</Link>
+        </NavItem>
       </Flex>
     </Box>
   );
@@ -165,6 +155,7 @@ const Sidebar = ({ children }) => {
           h="14"
         >
         </Flex>
+
         <Box as="main" p="4">
           {children}
         </Box>

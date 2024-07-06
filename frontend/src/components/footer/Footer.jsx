@@ -49,10 +49,12 @@ const footerData = [
 ];
 
 const Footer = () => {
-  const linkColor = useColorModeValue('gray.800', 'gray.300');
+  const linkColor = useColorModeValue('yellow.800', 'yellow.300');
 
   return (
+    
     <Container maxW="7xl" p={{ base: 5, md: 10 }}>
+  
       <VStack spacing={5} alignItems="initial">
         <Flex
           flexWrap="wrap"
@@ -78,7 +80,7 @@ const Footer = () => {
                     href={link.href}
                     mr={{ base: 1, sm: 2, md: 0 }}
                     color="gray.500"
-                    _hover={{ color: 'blue.600' }}
+                    _hover={{ color: 'yellow.600' }}
                   >
                     {link.label}
                   </Link>

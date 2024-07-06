@@ -1,0 +1,1691 @@
+[{
+    "origin": "Bogota",
+    "destination": "Medellin",
+    "cost": 120000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/ochoa.svg",
+    "company": "Rapido Ochoa",
+    "departureTime": "08:00",
+    "arrivalTime": "12:00",
+    "busType": "Basico"
+},
+{
+    "origin": "Medellin",
+    "destination": "Cali",
+    "cost": 150000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/bolivarianoRest.svg",
+    "company": "Expreso Bolivariano",
+    "departureTime": "09:00",
+    "arrivalTime": "13:00",
+    "busType": "Preferencial"
+},
+{
+    "origin": "Cali",
+    "destination": "Barranquilla",
+    "cost": 180000,
+    "imagen": "https://buscobus.com.co/wp-content/uploads/2017/04/expreso-brasilia.jpg",
+    "company": "Expreso Brasilia",
+    "departureTime": "10:00",
+    "arrivalTime": "15:00",
+    "busType": "Premium"
+},
+{
+    "origin": "Barranquilla",
+    "destination": "Cartagena",
+    "cost": 90000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/copetran.svg",
+    "company": "Copetran",
+    "departureTime": "11:00",
+    "arrivalTime": "12:30",
+    "busType": "Basico"
+},
+{
+    "origin": "Cartagena",
+    "destination": "Santa Marta",
+    "cost": 95000,
+    "imagen": "https://terminaldetransportepamplona.com/wp-content/uploads/2022/06/libertadores.png",
+    "company": "Libertadores",
+    "departureTime": "12:00",
+    "arrivalTime": "14:00",
+    "busType": "Preferencial"
+},
+{
+    "origin": "Santa Marta",
+    "destination": "Bucaramanga",
+    "cost": 200000,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq47k1wNVQlCdXl5qRnzrJMVRlxGTrUmK-Vg&s",
+    "company": "Omega",
+    "departureTime": "13:00",
+    "arrivalTime": "19:00",
+    "busType": "Premium"
+},
+{
+    "origin": "Bucaramanga",
+    "destination": "Cúcuta",
+    "cost": 80000,
+    "imagen": "https://cdn.bookaway.com/media/files/5eef4b3b922b8d0519bcca77.jpeg",
+    "company": "Flota Magdalena",
+    "departureTime": "14:00",
+    "arrivalTime": "16:00",
+    "busType": "Basico"
+},
+{
+    "origin": "Cúcuta",
+    "destination": "Bogota",
+    "cost": 160000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/ochoa.svg",
+    "company": "Rapido Ochoa",
+    "departureTime": "15:00",
+    "arrivalTime": "22:00",
+    "busType": "Preferencial"
+},
+{
+    "origin": "Bogota",
+    "destination": "Medellin",
+    "cost": 140000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/bolivarianoRest.svg",
+    "company": "Expreso Bolivariano",
+    "departureTime": "16:00",
+    "arrivalTime": "20:00",
+    "busType": "Premium"
+},
+{
+    "origin": "Medellin",
+    "destination": "Cali",
+    "cost": 135000,
+    "imagen": "https://buscobus.com.co/wp-content/uploads/2017/04/expreso-brasilia.jpg",
+    "company": "Expreso Brasilia",
+    "departureTime": "17:00",
+    "arrivalTime": "21:00",
+    "busType": "Basico"
+},
+{
+    "origin": "Cali",
+    "destination": "Barranquilla",
+    "cost": 175000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/copetran.svg",
+    "company": "Copetran",
+    "departureTime": "18:00",
+    "arrivalTime": "23:00",
+    "busType": "Preferencial"
+},
+{
+    "origin": "Barranquilla",
+    "destination": "Cartagena",
+    "cost": 85000,
+    "imagen": "https://terminaldetransportepamplona.com/wp-content/uploads/2022/06/libertadores.png",
+    "company": "Libertadores",
+    "departureTime": "19:00",
+    "arrivalTime": "20:30",
+    "busType": "Premium"
+},
+{
+    "origin": "Cartagena",
+    "destination": "Santa Marta",
+    "cost": 100000,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq47k1wNVQlCdXl5qRnzrJMVRlxGTrUmK-Vg&s",
+    "company": "Omega",
+    "departureTime": "20:00",
+    "arrivalTime": "22:00",
+    "busType": "Basico"
+},
+{
+    "origin": "Santa Marta",
+    "destination": "Bucaramanga",
+    "cost": 190000,
+    "imagen": "https://cdn.bookaway.com/media/files/5eef4b3b922b8d0519bcca77.jpeg",
+    "company": "Flota Magdalena",
+    "departureTime": "08:30",
+    "arrivalTime": "14:30",
+    "busType": "Preferencial"
+},
+{
+    "origin": "Bucaramanga",
+    "destination": "Cúcuta",
+    "cost": 85000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/ochoa.svg",
+    "company": "Rapido Ochoa",
+    "departureTime": "09:30",
+    "arrivalTime": "11:30",
+    "busType": "Premium"
+},
+{
+    "origin": "Cúcuta",
+    "destination": "Bogota",
+    "cost": 170000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/bolivarianoRest.svg",
+    "company": "Expreso Bolivariano",
+    "departureTime": "10:30",
+    "arrivalTime": "17:30",
+    "busType": "Basico"
+},
+{
+    "origin": "Bogota",
+    "destination": "Medellin",
+    "cost": 130000,
+    "imagen": "https://buscobus.com.co/wp-content/uploads/2017/04/expreso-brasilia.jpg",
+    "company": "Expreso Brasilia",
+    "departureTime": "11:30",
+    "arrivalTime": "15:30",
+    "busType": "Preferencial"
+},
+{
+    "origin": "Medellin",
+    "destination": "Cali",
+    "cost": 145000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/copetran.svg",
+    "company": "Copetran",
+    "departureTime": "12:30",
+    "arrivalTime": "16:30",
+    "busType": "Premium"
+},
+{
+    "origin": "Cali",
+    "destination": "Barranquilla",
+    "cost": 160000,
+    "imagen": "https://terminaldetransportepamplona.com/wp-content/uploads/2022/06/libertadores.png",
+    "company": "Libertadores",
+    "departureTime": "13:30",
+    "arrivalTime": "18:30",
+    "busType": "Basico"
+},
+{
+    "origin": "Barranquilla",
+    "destination": "Cartagena",
+    "cost": 95000,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq47k1wNVQlCdXl5qRnzrJMVRlxGTrUmK-Vg&s",
+    "company": "Omega",
+    "departureTime": "14:30",
+    "arrivalTime": "16:00",
+    "busType": "Preferencial"
+},
+{
+    "origin": "Cartagena",
+    "destination": "Santa Marta",
+    "cost": 105000,
+    "imagen": "https://cdn.bookaway.com/media/files/5eef4b3b922b8d0519bcca77.jpeg",
+    "company": "Flota Magdalena",
+    "departureTime": "15:30",
+    "arrivalTime": "17:30",
+    "busType": "Premium"
+},
+{
+    "origin": "Santa Marta",
+    "destination": "Bucaramanga",
+    "cost": 185000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/ochoa.svg",
+    "company": "Rapido Ochoa",
+    "departureTime": "16:30",
+    "arrivalTime": "22:30",
+    "busType": "Basico"
+},
+{
+    "origin": "Bucaramanga",
+    "destination": "Cúcuta",
+    "cost": 82000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/bolivarianoRest.svg",
+    "company": "Expreso Bolivariano",
+    "departureTime": "17:30",
+    "arrivalTime": "19:30",
+    "busType": "Preferencial"
+},
+{
+    "origin": "Cúcuta",
+    "destination": "Bogota",
+    "cost": 180000,
+    "imagen": "https://buscobus.com.co/wp-content/uploads/2017/04/expreso-brasilia.jpg",
+    "company": "Expreso Brasilia",
+    "departureTime": "18:30",
+    "arrivalTime": "01:30",
+    "busType": "Premium"
+},
+{
+    "origin": "Bogota",
+    "destination": "Medellin",
+    "cost": 125000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/copetran.svg",
+    "company": "Copetran",
+    "departureTime": "19:30",
+    "arrivalTime": "23:30",
+    "busType": "Basico"
+},
+{
+    "origin": "Medellin",
+    "destination": "Cali",
+    "cost": 150000,
+    "imagen": "https://terminaldetransportepamplona.com/wp-content/uploads/2022/06/libertadores.png",
+    "company": "Libertadores",
+    "departureTime": "20:30",
+    "arrivalTime": "00:30",
+    "busType": "Preferencial"
+},
+{
+    "origin": "Cali",
+    "destination": "Barranquilla",
+    "cost": 170000,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq47k1wNVQlCdXl5qRnzrJMVRlxGTrUmK-Vg&s",
+    "company": "Omega",
+    "departureTime": "08:00",
+    "arrivalTime": "13:00",
+    "busType": "Premium"
+},
+{
+    "origin": "Barranquilla",
+    "destination": "Cartagena",
+    "cost": 90000,
+    "imagen": "https://cdn.bookaway.com/media/files/5eef4b3b922b8d0519bcca77.jpeg",
+    "company": "Flota Magdalena",
+    "departureTime": "09:00",
+    "arrivalTime": "10:30",
+    "busType": "Basico"
+},
+{
+    "origin": "Cartagena",
+    "destination": "Santa Marta",
+    "cost": 95000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/ochoa.svg",
+    "company": "Rapido Ochoa",
+    "departureTime": "10:00",
+    "arrivalTime": "12:00",
+    "busType": "Preferencial"
+},
+{
+    "origin": "Santa Marta",
+    "destination": "Bucaramanga",
+    "cost": 200000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/bolivarianoRest.svg",
+    "company": "Expreso Bolivariano",
+    "departureTime": "11:00",
+    "arrivalTime": "17:00",
+    "busType": "Premium"
+},
+{
+    "origin": "Bucaramanga",
+    "destination": "Cúcuta",
+    "cost": 80000,
+    "imagen": "https://buscobus.com.co/wp-content/uploads/2017/04/expreso-brasilia.jpg",
+    "company": "Expreso Brasilia",
+    "departureTime": "12:00",
+    "arrivalTime": "14:00",
+    "busType": "Basico"
+},
+{
+    "origin": "Cúcuta",
+    "destination": "Bogota",
+    "cost": 160000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/copetran.svg",
+    "company": "Copetran",
+    "departureTime": "13:00",
+    "arrivalTime": "20:00",
+    "busType": "Preferencial"
+},
+{
+    "origin": "Bogota",
+    "destination": "Medellin",
+    "cost": 140000,
+    "imagen": "https://terminaldetransportepamplona.com/wp-content/uploads/2022/06/libertadores.png",
+    "company": "Libertadores",
+    "departureTime": "14:00",
+    "arrivalTime": "18:00",
+    "busType": "Premium"
+},
+{
+    "origin": "Medellin",
+    "destination": "Cali",
+    "cost": 135000,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq47k1wNVQlCdXl5qRnzrJMVRlxGTrUmK-Vg&s",
+    "company": "Omega",
+    "departureTime": "15:00",
+    "arrivalTime": "19:00",
+    "busType": "Basico"
+},
+{
+    "origin": "Cali",
+    "destination": "Barranquilla",
+    "cost": 175000,
+    "imagen": "https://cdn.bookaway.com/media/files/5eef4b3b922b8d0519bcca77.jpeg",
+    "company": "Flota Magdalena",
+    "departureTime": "16:00",
+    "arrivalTime": "21:00",
+    "busType": "Preferencial"
+},
+{
+    "origin": "Barranquilla",
+    "destination": "Cartagena",
+    "cost": 85000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/ochoa.svg",
+    "company": "Rapido Ochoa",
+    "departureTime": "17:00",
+    "arrivalTime": "18:30",
+    "busType": "Premium"
+},
+{
+    "origin": "Cartagena",
+    "destination": "Santa Marta",
+    "cost": 100000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/bolivarianoRest.svg",
+    "company": "Expreso Bolivariano",
+    "departureTime": "18:00",
+    "arrivalTime": "20:00",
+    "busType": "Basico"
+},
+{
+    "origin": "Santa Marta",
+    "destination": "Bucaramanga",
+    "cost": 190000,
+    "imagen": "https://buscobus.com.co/wp-content/uploads/2017/04/expreso-brasilia.jpg",
+    "company": "Expreso Brasilia",
+    "departureTime": "19:00",
+    "arrivalTime": "01:00",
+    "busType": "Preferencial"
+},
+{
+    "origin": "Bucaramanga",
+    "destination": "Cúcuta",
+    "cost": 85000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/copetran.svg",
+    "company": "Copetran",
+    "departureTime": "20:00",
+    "arrivalTime": "22:00",
+    "busType": "Premium"
+},
+{
+    "origin": "Cúcuta",
+    "destination": "Bogota",
+    "cost": 170000,
+    "imagen": "https://terminaldetransportepamplona.com/wp-content/uploads/2022/06/libertadores.png",
+    "company": "Libertadores",
+    "departureTime": "08:30",
+    "arrivalTime": "15:30",
+    "busType": "Basico"
+},
+{
+    "origin": "Bogota",
+    "destination": "Medellin",
+    "cost": 130000,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq47k1wNVQlCdXl5qRnzrJMVRlxGTrUmK-Vg&s",
+    "company": "Omega",
+    "departureTime": "09:30",
+    "arrivalTime": "13:30",
+    "busType": "Preferencial"
+},
+{
+    "origin": "Medellin",
+    "destination": "Cali",
+    "cost": 145000,
+    "imagen": "https://cdn.bookaway.com/media/files/5eef4b3b922b8d0519bcca77.jpeg",
+    "company": "Flota Magdalena",
+    "departureTime": "10:30",
+    "arrivalTime": "14:30",
+    "busType": "Premium"
+},
+{
+    "origin": "Cali",
+    "destination": "Barranquilla",
+    "cost": 160000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/ochoa.svg",
+    "company": "Rapido Ochoa",
+    "departureTime": "11:30",
+    "arrivalTime": "16:30",
+    "busType": "Basico"
+},
+{
+    "origin": "Barranquilla",
+    "destination": "Cartagena",
+    "cost": 95000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/bolivarianoRest.svg",
+    "company": "Expreso Bolivariano",
+    "departureTime": "12:30",
+    "arrivalTime": "14:00",
+    "busType": "Preferencial"
+},
+{
+    "origin": "Cartagena",
+    "destination": "Santa Marta",
+    "cost": 105000,
+    "imagen": "https://buscobus.com.co/wp-content/uploads/2017/04/expreso-brasilia.jpg",
+    "company": "Expreso Brasilia",
+    "departureTime": "13:30",
+    "arrivalTime": "15:30",
+    "busType": "Premium"
+},
+{
+    "origin": "Santa Marta",
+    "destination": "Bucaramanga",
+    "cost": 185000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/copetran.svg",
+    "company": "Copetran",
+    "departureTime": "14:30",
+    "arrivalTime": "20:30",
+    "busType": "Basico"
+},
+{
+    "origin": "Bucaramanga",
+    "destination": "Cúcuta",
+    "cost": 82000,
+    "imagen": "https://terminaldetransportepamplona.com/wp-content/uploads/2022/06/libertadores.png",
+    "company": "Libertadores",
+    "departureTime": "15:30",
+    "arrivalTime": "17:30",
+    "busType": "Preferencial"
+},
+{
+    "origin": "Cúcuta",
+    "destination": "Bogota",
+    "cost": 180000,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq47k1wNVQlCdXl5qRnzrJMVRlxGTrUmK-Vg&s",
+    "company": "Omega",
+    "departureTime": "16:30",
+    "arrivalTime": "23:30",
+    "busType": "Premium"
+},
+{
+    "origin": "Bogota",
+    "destination": "Medellin",
+    "cost": 125000,
+    "imagen": "https://cdn.bookaway.com/media/files/5eef4b3b922b8d0519bcca77.jpeg",
+    "company": "Flota Magdalena",
+    "departureTime": "17:30",
+    "arrivalTime": "21:30",
+    "busType": "Basico"
+},
+{
+    "origin": "Medellin",
+    "destination": "Cali",
+    "cost": 150000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/ochoa.svg",
+    "company": "Rapido Ochoa",
+    "departureTime": "18:30",
+    "arrivalTime": "22:30",
+    "busType": "Preferencial"
+},
+{
+    "origin": "Cali",
+    "destination": "Barranquilla",
+    "cost": 170000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/bolivarianoRest.svg",
+    "company": "Expreso Bolivariano",
+    "departureTime": "19:30",
+    "arrivalTime": "00:30",
+    "busType": "Premium"
+},
+{
+    "origin": "Barranquilla",
+    "destination": "Cartagena",
+    "cost": 90000,
+    "imagen": "https://buscobus.com.co/wp-content/uploads/2017/04/expreso-brasilia.jpg",
+    "company": "Expreso Brasilia",
+    "departureTime": "20:30",
+    "arrivalTime": "22:00",
+    "busType": "Basico"
+},
+{
+    "origin": "Cartagena",
+    "destination": "Santa Marta",
+    "cost": 95000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/copetran.svg",
+    "company": "Copetran",
+    "departureTime": "08:00",
+    "arrivalTime": "10:00",
+    "busType": "Preferencial"
+},
+{
+    "origin": "Santa Marta",
+    "destination": "Bucaramanga",
+    "cost": 200000,
+    "imagen": "https://terminaldetransportepamplona.com/wp-content/uploads/2022/06/libertadores.png",
+    "company": "Libertadores",
+    "departureTime": "09:00",
+    "arrivalTime": "15:00",
+    "busType": "Premium"
+},
+{
+    "origin": "Bucaramanga",
+    "destination": "Cúcuta",
+    "cost": 80000,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq47k1wNVQlCdXl5qRnzrJMVRlxGTrUmK-Vg&s",
+    "company": "Omega",
+    "departureTime": "10:00",
+    "arrivalTime": "12:00",
+    "busType": "Basico"
+},
+{
+    "origin": "Cúcuta",
+    "destination": "Bogota",
+    "cost": 160000,
+    "imagen": "https://cdn.bookaway.com/media/files/5eef4b3b922b8d0519bcca77.jpeg",
+    "company": "Flota Magdalena",
+    "departureTime": "11:00",
+    "arrivalTime": "18:00",
+    "busType": "Preferencial"
+},
+{
+    "origin": "Bogota",
+    "destination": "Medellin",
+    "cost": 140000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/ochoa.svg",
+    "company": "Rapido Ochoa",
+    "departureTime": "12:00",
+    "arrivalTime": "16:00",
+    "busType": "Premium"
+},
+{
+    "origin": "Medellin",
+    "destination": "Cali",
+    "cost": 135000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/bolivarianoRest.svg",
+    "company": "Expreso Bolivariano",
+    "departureTime": "13:00",
+    "arrivalTime": "17:00",
+    "busType": "Basico"
+},
+{
+    "origin": "Cali",
+    "destination": "Barranquilla",
+    "cost": 175000,
+    "imagen": "https://buscobus.com.co/wp-content/uploads/2017/04/expreso-brasilia.jpg",
+    "company": "Expreso Brasilia",
+    "departureTime": "14:00",
+    "arrivalTime": "19:00",
+    "busType": "Preferencial"
+},
+{
+    "origin": "Barranquilla",
+    "destination": "Cartagena",
+    "cost": 85000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/copetran.svg",
+    "company": "Copetran",
+    "departureTime": "15:00",
+    "arrivalTime": "16:30",
+    "busType": "Premium"
+},
+{
+    "origin": "Cartagena",
+    "destination": "Santa Marta",
+    "cost": 100000,
+    "imagen": "https://terminaldetransportepamplona.com/wp-content/uploads/2022/06/libertadores.png",
+    "company": "Libertadores",
+    "departureTime": "16:00",
+    "arrivalTime": "18:00",
+    "busType": "Basico"
+},
+{
+    "origin": "Santa Marta",
+    "destination": "Bucaramanga",
+    "cost": 190000,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq47k1wNVQlCdXl5qRnzrJMVRlxGTrUmK-Vg&s",
+    "company": "Omega",
+    "departureTime": "17:00",
+    "arrivalTime": "23:00",
+    "busType": "Preferencial"
+},
+{
+    "origin": "Bucaramanga",
+    "destination": "Cúcuta",
+    "cost": 85000,
+    "imagen": "https://cdn.bookaway.com/media/files/5eef4b3b922b8d0519bcca77.jpeg",
+    "company": "Flota Magdalena",
+    "departureTime": "18:00",
+    "arrivalTime": "20:00",
+    "busType": "Premium"
+},
+{
+    "origin": "Cúcuta",
+    "destination": "Bogota",
+    "cost": 170000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/ochoa.svg",
+    "company": "Rapido Ochoa",
+    "departureTime": "19:00",
+    "arrivalTime": "02:00",
+    "busType": "Basico"
+},
+{
+    "origin": "Bogota",
+    "destination": "Medellin",
+    "cost": 130000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/bolivarianoRest.svg",
+    "company": "Expreso Bolivariano",
+    "departureTime": "20:00",
+    "arrivalTime": "00:00",
+    "busType": "Preferencial"
+},
+{
+    "origin": "Medellin",
+    "destination": "Cali",
+    "cost": 145000,
+    "imagen": "https://buscobus.com.co/wp-content/uploads/2017/04/expreso-brasilia.jpg",
+    "company": "Expreso Brasilia",
+    "departureTime": "08:30",
+    "arrivalTime": "12:30",
+    "busType": "Premium"
+},
+{
+    "origin": "Cali",
+    "destination": "Barranquilla",
+    "cost": 160000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/copetran.svg",
+    "company": "Copetran",
+    "departureTime": "09:30",
+    "arrivalTime": "14:30",
+    "busType": "Basico"
+},
+{
+    "origin": "Barranquilla",
+    "destination": "Cartagena",
+    "cost": 95000,
+    "imagen": "https://terminaldetransportepamplona.com/wp-content/uploads/2022/06/libertadores.png",
+    "company": "Libertadores",
+    "departureTime": "10:30",
+    "arrivalTime": "12:00",
+    "busType": "Preferencial"
+},
+{
+    "origin": "Cartagena",
+    "destination": "Santa Marta",
+    "cost": 105000,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq47k1wNVQlCdXl5qRnzrJMVRlxGTrUmK-Vg&s",
+    "company": "Omega",
+    "departureTime": "11:30",
+    "arrivalTime": "13:30",
+    "busType": "Premium"
+},
+{
+    "origin": "Santa Marta",
+    "destination": "Bucaramanga",
+    "cost": 185000,
+    "imagen": "https://cdn.bookaway.com/media/files/5eef4b3b922b8d0519bcca77.jpeg",
+    "company": "Flota Magdalena",
+    "departureTime": "12:30",
+    "arrivalTime": "18:30",
+    "busType": "Basico"
+},
+{
+    "origin": "Bucaramanga",
+    "destination": "Cúcuta",
+    "cost": 82000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/ochoa.svg",
+    "company": "Rapido Ochoa",
+    "departureTime": "13:30",
+    "arrivalTime": "15:30",
+    "busType": "Preferencial"
+},
+{
+    "origin": "Cúcuta",
+    "destination": "Bogota",
+    "cost": 180000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/bolivarianoRest.svg",
+    "company": "Expreso Bolivariano",
+    "departureTime": "14:30",
+    "arrivalTime": "21:30",
+    "busType": "Premium"
+},
+{
+    "origin": "Bogota",
+    "destination": "Medellin",
+    "cost": 125000,
+    "imagen": "https://buscobus.com.co/wp-content/uploads/2017/04/expreso-brasilia.jpg",
+    "company": "Expreso Brasilia",
+    "departureTime": "15:30",
+    "arrivalTime": "19:30",
+    "busType": "Basico"
+},
+{
+    "origin": "Medellin",
+    "destination": "Cali",
+    "cost": 150000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/copetran.svg",
+    "company": "Copetran",
+    "departureTime": "16:30",
+    "arrivalTime": "20:30",
+    "busType": "Preferencial"
+},
+{
+    "origin": "Cali",
+    "destination": "Barranquilla",
+    "cost": 170000,
+    "imagen": "https://terminaldetransportepamplona.com/wp-content/uploads/2022/06/libertadores.png",
+    "company": "Libertadores",
+    "departureTime": "17:30",
+    "arrivalTime": "22:30",
+    "busType": "Premium"
+},
+{
+    "origin": "Barranquilla",
+    "destination": "Cartagena",
+    "cost": 90000,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq47k1wNVQlCdXl5qRnzrJMVRlxGTrUmK-Vg&s",
+    "company": "Omega",
+    "departureTime": "18:30",
+    "arrivalTime": "20:00",
+    "busType": "Basico"
+},
+{
+    "origin": "Cartagena",
+    "destination": "Santa Marta",
+    "cost": 95000,
+    "imagen": "https://cdn.bookaway.com/media/files/5eef4b3b922b8d0519bcca77.jpeg",
+    "company": "Flota Magdalena",
+    "departureTime": "19:30",
+    "arrivalTime": "21:30",
+    "busType": "Preferencial"
+},
+{
+    "origin": "Santa Marta",
+    "destination": "Bucaramanga",
+    "cost": 200000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/ochoa.svg",
+    "company": "Rapido Ochoa",
+    "departureTime": "20:30",
+    "arrivalTime": "02:30",
+    "busType": "Premium"
+},
+{
+    "origin": "Bucaramanga",
+    "destination": "Cúcuta",
+    "cost": 80000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/bolivarianoRest.svg",
+    "company": "Expreso Bolivariano",
+    "departureTime": "08:00",
+    "arrivalTime": "10:00",
+    "busType": "Basico"
+},
+{
+    "origin": "Cúcuta",
+    "destination": "Bogota",
+    "cost": 160000,
+    "imagen": "https://buscobus.com.co/wp-content/uploads/2017/04/expreso-brasilia.jpg",
+    "company": "Expreso Brasilia",
+    "departureTime": "09:00",
+    "arrivalTime": "16:00",
+    "busType": "Preferencial"
+},
+{
+    "origin": "Bogota",
+    "destination": "Medellin",
+    "cost": 140000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/copetran.svg",
+    "company": "Copetran",
+    "departureTime": "10:00",
+    "arrivalTime": "14:00",
+    "busType": "Premium"
+},
+{
+    "origin": "Medellin",
+    "destination": "Cali",
+    "cost": 135000,
+    "imagen": "https://terminaldetransportepamplona.com/wp-content/uploads/2022/06/libertadores.png",
+    "company": "Libertadores",
+    "departureTime": "11:00",
+    "arrivalTime": "15:00",
+    "busType": "Basico"
+},
+{
+    "origin": "Cali",
+    "destination": "Barranquilla",
+    "cost": 175000,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq47k1wNVQlCdXl5qRnzrJMVRlxGTrUmK-Vg&s",
+    "company": "Omega",
+    "departureTime": "12:00",
+    "arrivalTime": "17:00",
+    "busType": "Preferencial"
+},
+{
+    "origin": "Barranquilla",
+    "destination": "Cartagena",
+    "cost": 85000,
+    "imagen": "https://cdn.bookaway.com/media/files/5eef4b3b922b8d0519bcca77.jpeg",
+    "company": "Flota Magdalena",
+    "departureTime": "13:00",
+    "arrivalTime": "14:30",
+    "busType": "Premium"
+},
+{
+    "origin": "Cartagena",
+    "destination": "Santa Marta",
+    "cost": 100000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/ochoa.svg",
+    "company": "Rapido Ochoa",
+    "departureTime": "14:00",
+    "arrivalTime": "16:00",
+    "busType": "Basico"
+},
+{
+    "origin": "Santa Marta",
+    "destination": "Bucaramanga",
+    "cost": 190000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/bolivarianoRest.svg",
+    "company": "Expreso Bolivariano",
+    "departureTime": "15:00",
+    "arrivalTime": "21:00",
+    "busType": "Preferencial"
+},
+{
+    "origin": "Bucaramanga",
+    "destination": "Cúcuta",
+    "cost": 85000,
+    "imagen": "https://buscobus.com.co/wp-content/uploads/2017/04/expreso-brasilia.jpg",
+    "company": "Expreso Brasilia",
+    "departureTime": "16:00",
+    "arrivalTime": "18:00",
+    "busType": "Premium"
+},
+{
+    "origin": "Cúcuta",
+    "destination": "Bogota",
+    "cost": 170000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/copetran.svg",
+    "company": "Copetran",
+    "departureTime": "17:00",
+    "arrivalTime": "00:00",
+    "busType": "Basico"
+},
+{
+    "origin": "Bogota",
+    "destination": "Medellin",
+    "cost": 130000,
+    "imagen": "https://terminaldetransportepamplona.com/wp-content/uploads/2022/06/libertadores.png",
+    "company": "Libertadores",
+    "departureTime": "18:00",
+    "arrivalTime": "22:00",
+    "busType": "Preferencial"
+},
+{
+    "origin": "Medellin",
+    "destination": "Cali",
+    "cost": 145000,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq47k1wNVQlCdXl5qRnzrJMVRlxGTrUmK-Vg&s",
+    "company": "Omega",
+    "departureTime": "19:00",
+    "arrivalTime": "23:00",
+    "busType": "Premium"
+},
+{
+    "origin": "Cali",
+    "destination": "Barranquilla",
+    "cost": 160000,
+    "imagen": "https://cdn.bookaway.com/media/files/5eef4b3b922b8d0519bcca77.jpeg",
+    "company": "Flota Magdalena",
+    "departureTime": "20:00",
+    "arrivalTime": "01:00",
+    "busType": "Basico"
+},
+{
+    "origin": "Barranquilla",
+    "destination": "Cartagena",
+    "cost": 90000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/ochoa.svg",
+    "company": "Rapido Ochoa",
+    "departureTime": "08:30",
+    "arrivalTime": "10:00",
+    "busType": "Preferencial"
+},
+{
+    "origin": "Cartagena",
+    "destination": "Santa Marta",
+    "cost": 95000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/bolivarianoRest.svg",
+    "company": "Expreso Bolivariano",
+    "departureTime": "09:30",
+    "arrivalTime": "11:30",
+    "busType": "Premium"
+},
+{
+    "origin": "Santa Marta",
+    "destination": "Bucaramanga",
+    "cost": 200000,
+    "imagen": "https://buscobus.com.co/wp-content/uploads/2017/04/expreso-brasilia.jpg",
+    "company": "Expreso Brasilia",
+    "departureTime": "10:30",
+    "arrivalTime": "16:30",
+    "busType": "Basico"
+},
+{
+    "origin": "Bucaramanga",
+    "destination": "Cúcuta",
+    "cost": 80000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/copetran.svg",
+    "company": "Copetran",
+    "departureTime": "11:30",
+    "arrivalTime": "13:30",
+    "busType": "Preferencial"
+},
+{
+    "origin": "Cúcuta",
+    "destination": "Bogota",
+    "cost": 160000,
+    "imagen": "https://terminaldetransportepamplona.com/wp-content/uploads/2022/06/libertadores.png",
+    "company": "Libertadores",
+    "departureTime": "12:30",
+    "arrivalTime": "19:30",
+    "busType": "Premium"
+},
+{
+    "origin": "Bogota",
+    "destination": "Medellin",
+    "cost": 140000,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq47k1wNVQlCdXl5qRnzrJMVRlxGTrUmK-Vg&s",
+    "company": "Omega",
+    "departureTime": "13:30",
+    "arrivalTime": "17:30",
+    "busType": "Basico"
+},
+{
+    "origin": "Medellin",
+    "destination": "Cali",
+    "cost": 135000,
+    "imagen": "https://cdn.bookaway.com/media/files/5eef4b3b922b8d0519bcca77.jpeg",
+    "company": "Flota Magdalena",
+    "departureTime": "14:30",
+    "arrivalTime": "18:30",
+    "busType": "Preferencial"
+},
+{
+    "origin": "Cali",
+    "destination": "Barranquilla",
+    "cost": 175000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/ochoa.svg",
+    "company": "Rapido Ochoa",
+    "departureTime": "15:30",
+    "arrivalTime": "20:30",
+    "busType": "Premium"
+},
+{
+    "origin": "Barranquilla",
+    "destination": "Cartagena",
+    "cost": 85000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/bolivarianoRest.svg",
+    "company": "Expreso Bolivariano",
+    "departureTime": "16:30",
+    "arrivalTime": "18:00",
+    "busType": "Basico"
+},
+{
+    "origin": "Cartagena",
+    "destination": "Santa Marta",
+    "cost": 100000,
+    "imagen": "https://buscobus.com.co/wp-content/uploads/2017/04/expreso-brasilia.jpg",
+    "company": "Expreso Brasilia",
+    "departureTime": "17:30",
+    "arrivalTime": "19:30",
+    "busType": "Preferencial"
+},
+{
+    "origin": "Santa Marta",
+    "destination": "Bucaramanga",
+    "cost": 190000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/copetran.svg",
+    "company": "Copetran",
+    "departureTime": "18:30",
+    "arrivalTime": "00:30",
+    "busType": "Premium"
+},
+{
+    "origin": "Bucaramanga",
+    "destination": "Cúcuta",
+    "cost": 85000,
+    "imagen": "https://terminaldetransportepamplona.com/wp-content/uploads/2022/06/libertadores.png",
+    "company": "Libertadores",
+    "departureTime": "19:30",
+    "arrivalTime": "21:30",
+    "busType": "Basico"
+},
+{
+    "origin": "Cúcuta",
+    "destination": "Bogota",
+    "cost": 170000,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq47k1wNVQlCdXl5qRnzrJMVRlxGTrUmK-Vg&s",
+    "company": "Omega",
+    "departureTime": "20:30",
+    "arrivalTime": "03:30",
+    "busType": "Preferencial"
+},
+{
+    "origin": "Bogota",
+    "destination": "Medellin",
+    "cost": 130000,
+    "imagen": "https://cdn.bookaway.com/media/files/5eef4b3b922b8d0519bcca77.jpeg",
+    "company": "Flota Magdalena",
+    "departureTime": "08:00",
+    "arrivalTime": "12:00",
+    "busType": "Premium"
+},
+{
+    "origin": "Medellin",
+    "destination": "Cali",
+    "cost": 150000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/ochoa.svg",
+    "company": "Rapido Ochoa",
+    "departureTime": "09:00",
+    "arrivalTime": "13:00",
+    "busType": "Basico"
+},
+{
+    "origin": "Cali",
+    "destination": "Barranquilla",
+    "cost": 170000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/bolivarianoRest.svg",
+    "company": "Expreso Bolivariano",
+    "departureTime": "10:00",
+    "arrivalTime": "15:00",
+    "busType": "Preferencial"
+},
+{
+    "origin": "Barranquilla",
+    "destination": "Cartagena",
+    "cost": 90000,
+    "imagen": "https://buscobus.com.co/wp-content/uploads/2017/04/expreso-brasilia.jpg",
+    "company": "Expreso Brasilia",
+    "departureTime": "11:00",
+    "arrivalTime": "12:30",
+    "busType": "Premium"
+},
+{
+    "origin": "Cartagena",
+    "destination": "Santa Marta",
+    "cost": 95000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/copetran.svg",
+    "company": "Copetran",
+    "departureTime": "12:00",
+    "arrivalTime": "14:00",
+    "busType": "Basico"
+},
+{
+    "origin": "Santa Marta",
+    "destination": "Bucaramanga",
+    "cost": 200000,
+    "imagen": "https://terminaldetransportepamplona.com/wp-content/uploads/2022/06/libertadores.png",
+    "company": "Libertadores",
+    "departureTime": "13:00",
+    "arrivalTime": "19:00",
+    "busType": "Preferencial"
+},
+{
+    "origin": "Bucaramanga",
+    "destination": "Cúcuta",
+    "cost": 80000,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq47k1wNVQlCdXl5qRnzrJMVRlxGTrUmK-Vg&s",
+    "company": "Omega",
+    "departureTime": "14:00",
+    "arrivalTime": "16:00",
+    "busType": "Premium"
+},
+{
+    "origin": "Cúcuta",
+    "destination": "Bogota",
+    "cost": 160000,
+    "imagen": "https://cdn.bookaway.com/media/files/5eef4b3b922b8d0519bcca77.jpeg",
+    "company": "Flota Magdalena",
+    "departureTime": "15:00",
+    "arrivalTime": "22:00",
+    "busType": "Basico"
+},
+{
+    "origin": "Bogota",
+    "destination": "Medellin",
+    "cost": 140000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/ochoa.svg",
+    "company": "Rapido Ochoa",
+    "departureTime": "16:00",
+    "arrivalTime": "20:00",
+    "busType": "Preferencial"
+},
+{
+    "origin": "Medellin",
+    "destination": "Cali",
+    "cost": 135000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/bolivarianoRest.svg",
+    "company": "Expreso Bolivariano",
+    "departureTime": "17:00",
+    "arrivalTime": "21:00",
+    "busType": "Premium"
+},
+{
+    "origin": "Cali",
+    "destination": "Barranquilla",
+    "cost": 175000,
+    "imagen": "https://buscobus.com.co/wp-content/uploads/2017/04/expreso-brasilia.jpg",
+    "company": "Expreso Brasilia",
+    "departureTime": "18:00",
+    "arrivalTime": "23:00",
+    "busType": "Basico"
+},
+{
+    "origin": "Barranquilla",
+    "destination": "Cartagena",
+    "cost": 85000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/copetran.svg",
+    "company": "Copetran",
+    "departureTime": "19:00",
+    "arrivalTime": "20:30",
+    "busType": "Preferencial"
+},
+{
+    "origin": "Cartagena",
+    "destination": "Santa Marta",
+    "cost": 100000,
+    "imagen": "https://terminaldetransportepamplona.com/wp-content/uploads/2022/06/libertadores.png",
+    "company": "Libertadores",
+    "departureTime": "20:00",
+    "arrivalTime": "22:00",
+    "busType": "Premium"
+},
+{
+    "origin": "Santa Marta",
+    "destination": "Bucaramanga",
+    "cost": 190000,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq47k1wNVQlCdXl5qRnzrJMVRlxGTrUmK-Vg&s",
+    "company": "Omega",
+    "departureTime": "08:00",
+    "arrivalTime": "14:00",
+    "busType": "Basico"
+},
+{
+    "origin": "Bucaramanga",
+    "destination": "Cúcuta",
+    "cost": 85000,
+    "imagen": "https://cdn.bookaway.com/media/files/5eef4b3b922b8d0519bcca77.jpeg",
+    "company": "Flota Magdalena",
+    "departureTime": "09:00",
+    "arrivalTime": "11:00",
+    "busType": "Preferencial"
+},
+{
+    "origin": "Cúcuta",
+    "destination": "Bogota",
+    "cost": 180000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/ochoa.svg",
+    "company": "Rapido Ochoa",
+    "departureTime": "10:00",
+    "arrivalTime": "17:00",
+    "busType": "Premium"
+},
+{
+    "origin": "Bogota",
+    "destination": "Medellin",
+    "cost": 125000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/bolivarianoRest.svg",
+    "company": "Expreso Bolivariano",
+    "departureTime": "11:00",
+    "arrivalTime": "15:00",
+    "busType": "Basico"
+},
+{
+    "origin": "Medellin",
+    "destination": "Cali",
+    "cost": 150000,
+    "imagen": "https://buscobus.com.co/wp-content/uploads/2017/04/expreso-brasilia.jpg",
+    "company": "Expreso Brasilia",
+    "departureTime": "12:00",
+    "arrivalTime": "16:00",
+    "busType": "Preferencial"
+},
+{
+    "origin": "Cali",
+    "destination": "Barranquilla",
+    "cost": 170000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/copetran.svg",
+    "company": "Copetran",
+    "departureTime": "13:00",
+    "arrivalTime": "18:00",
+    "busType": "Premium"
+},
+{
+    "origin": "Barranquilla",
+    "destination": "Cartagena",
+    "cost": 90000,
+    "imagen": "https://terminaldetransportepamplona.com/wp-content/uploads/2022/06/libertadores.png",
+    "company": "Libertadores",
+    "departureTime": "14:00",
+    "arrivalTime": "15:30",
+    "busType": "Basico"
+},
+{
+    "origin": "Cartagena",
+    "destination": "Santa Marta",
+    "cost": 95000,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq47k1wNVQlCdXl5qRnzrJMVRlxGTrUmK-Vg&s",
+    "company": "Omega",
+    "departureTime": "15:00",
+    "arrivalTime": "17:00",
+    "busType": "Preferencial"
+},
+{
+    "origin": "Santa Marta",
+    "destination": "Bucaramanga",
+    "cost": 200000,
+    "imagen": "https://cdn.bookaway.com/media/files/5eef4b3b922b8d0519bcca77.jpeg",
+    "company": "Flota Magdalena",
+    "departureTime": "16:00",
+    "arrivalTime": "22:00",
+    "busType": "Premium"
+},
+{
+    "origin": "Bucaramanga",
+    "destination": "Cúcuta",
+    "cost": 80000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/ochoa.svg",
+    "company": "Rapido Ochoa",
+    "departureTime": "17:00",
+    "arrivalTime": "19:00",
+    "busType": "Basico"
+},
+{
+    "origin": "Cúcuta",
+    "destination": "Bogota",
+    "cost": 160000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/bolivarianoRest.svg",
+    "company": "Expreso Bolivariano",
+    "departureTime": "18:00",
+    "arrivalTime": "01:00",
+    "busType": "Preferencial"
+},
+{
+    "origin": "Bogota",
+    "destination": "Medellin",
+    "cost": 140000,
+    "imagen": "https://buscobus.com.co/wp-content/uploads/2017/04/expreso-brasilia.jpg",
+    "company": "Expreso Brasilia",
+    "departureTime": "19:00",
+    "arrivalTime": "23:00",
+    "busType": "Premium"
+},
+{
+    "origin": "Medellin",
+    "destination": "Cali",
+    "cost": 135000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/copetran.svg",
+    "company": "Copetran",
+    "departureTime": "20:00",
+    "arrivalTime": "00:00",
+    "busType": "Basico"
+},
+{
+    "origin": "Cali",
+    "destination": "Barranquilla",
+    "cost": 175000,
+    "imagen": "https://terminaldetransportepamplona.com/wp-content/uploads/2022/06/libertadores.png",
+    "company": "Libertadores",
+    "departureTime": "08:30",
+    "arrivalTime": "13:30",
+    "busType": "Preferencial"
+},
+{
+    "origin": "Barranquilla",
+    "destination": "Cartagena",
+    "cost": 85000,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq47k1wNVQlCdXl5qRnzrJMVRlxGTrUmK-Vg&s",
+    "company": "Omega",
+    "departureTime": "09:30",
+    "arrivalTime": "11:00",
+    "busType": "Premium"
+},
+{
+    "origin": "Cartagena",
+    "destination": "Santa Marta",
+    "cost": 100000,
+    "imagen": "https://cdn.bookaway.com/media/files/5eef4b3b922b8d0519bcca77.jpeg",
+    "company": "Flota Magdalena",
+    "departureTime": "10:30",
+    "arrivalTime": "12:30",
+    "busType": "Basico"
+},
+{
+    "origin": "Santa Marta",
+    "destination": "Bucaramanga",
+    "cost": 190000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/ochoa.svg",
+    "company": "Rapido Ochoa",
+    "departureTime": "11:30",
+    "arrivalTime": "17:30",
+    "busType": "Preferencial"
+},
+{
+    "origin": "Bucaramanga",
+    "destination": "Cúcuta",
+    "cost": 82000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/bolivarianoRest.svg",
+    "company": "Expreso Bolivariano",
+    "departureTime": "12:30",
+    "arrivalTime": "14:30",
+    "busType": "Premium"
+},
+{
+    "origin": "Cúcuta",
+    "destination": "Bogota",
+    "cost": 180000,
+    "imagen": "https://buscobus.com.co/wp-content/uploads/2017/04/expreso-brasilia.jpg",
+    "company": "Expreso Brasilia",
+    "departureTime": "13:30",
+    "arrivalTime": "20:30",
+    "busType": "Basico"
+},
+{
+    "origin": "Bogota",
+    "destination": "Medellin",
+    "cost": 125000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/copetran.svg",
+    "company": "Copetran",
+    "departureTime": "14:30",
+    "arrivalTime": "18:30",
+    "busType": "Preferencial"
+},
+{
+    "origin": "Medellin",
+    "destination": "Cali",
+    "cost": 150000,
+    "imagen": "https://terminaldetransportepamplona.com/wp-content/uploads/2022/06/libertadores.png",
+    "company": "Libertadores",
+    "departureTime": "15:30",
+    "arrivalTime": "19:30",
+    "busType": "Premium"
+},
+{
+    "origin": "Cali",
+    "destination": "Barranquilla",
+    "cost": 170000,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq47k1wNVQlCdXl5qRnzrJMVRlxGTrUmK-Vg&s",
+    "company": "Omega",
+    "departureTime": "16:30",
+    "arrivalTime": "21:30",
+    "busType": "Basico"
+},
+{
+    "origin": "Barranquilla",
+    "destination": "Cartagena",
+    "cost": 90000,
+    "imagen": "https://cdn.bookaway.com/media/files/5eef4b3b922b8d0519bcca77.jpeg",
+    "company": "Flota Magdalena",
+    "departureTime": "17:30",
+    "arrivalTime": "19:00",
+    "busType": "Preferencial"
+},
+{
+    "origin": "Cartagena",
+    "destination": "Santa Marta",
+    "cost": 95000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/ochoa.svg",
+    "company": "Rapido Ochoa",
+    "departureTime": "18:30",
+    "arrivalTime": "20:30",
+    "busType": "Premium"
+},
+{
+    "origin": "Santa Marta",
+    "destination": "Bucaramanga",
+    "cost": 200000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/bolivarianoRest.svg",
+    "company": "Expreso Bolivariano",
+    "departureTime": "19:30",
+    "arrivalTime": "01:30",
+    "busType": "Basico"
+},
+{
+    "origin": "Bucaramanga",
+    "destination": "Cúcuta",
+    "cost": 80000,
+    "imagen": "https://buscobus.com.co/wp-content/uploads/2017/04/expreso-brasilia.jpg",
+    "company": "Expreso Brasilia",
+    "departureTime": "20:30",
+    "arrivalTime": "22:30",
+    "busType": "Preferencial"
+},
+{
+    "origin": "Cúcuta",
+    "destination": "Bogota",
+    "cost": 160000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/copetran.svg",
+    "company": "Copetran",
+    "departureTime": "08:00",
+    "arrivalTime": "15:00",
+    "busType": "Premium"
+},
+{
+    "origin": "Bogota",
+    "destination": "Medellin",
+    "cost": 130000,
+    "imagen": "https://terminaldetransportepamplona.com/wp-content/uploads/2022/06/libertadores.png",
+    "company": "Libertadores",
+    "departureTime": "09:00",
+    "arrivalTime": "13:00",
+    "busType": "Basico"
+},
+{
+    "origin": "Medellin",
+    "destination": "Cali",
+    "cost": 145000,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq47k1wNVQlCdXl5qRnzrJMVRlxGTrUmK-Vg&s",
+    "company": "Omega",
+    "departureTime": "10:00",
+    "arrivalTime": "14:00",
+    "busType": "Preferencial"
+},
+{
+    "origin": "Cali",
+    "destination": "Barranquilla",
+    "cost": 160000,
+    "imagen": "https://cdn.bookaway.com/media/files/5eef4b3b922b8d0519bcca77.jpeg",
+    "company": "Flota Magdalena",
+    "departureTime": "11:00",
+    "arrivalTime": "16:00",
+    "busType": "Premium"
+},
+{
+    "origin": "Barranquilla",
+    "destination": "Cartagena",
+    "cost": 95000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/ochoa.svg",
+    "company": "Rapido Ochoa",
+    "departureTime": "12:00",
+    "arrivalTime": "13:30",
+    "busType": "Basico"
+},
+{
+    "origin": "Cartagena",
+    "destination": "Santa Marta",
+    "cost": 105000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/bolivarianoRest.svg",
+    "company": "Expreso Bolivariano",
+    "departureTime": "13:00",
+    "arrivalTime": "15:00",
+    "busType": "Preferencial"
+},
+{
+    "origin": "Santa Marta",
+    "destination": "Bucaramanga",
+    "cost": 185000,
+    "imagen": "https://buscobus.com.co/wp-content/uploads/2017/04/expreso-brasilia.jpg",
+    "company": "Expreso Brasilia",
+    "departureTime": "14:00",
+    "arrivalTime": "20:00",
+    "busType": "Premium"
+},
+{
+    "origin": "Bucaramanga",
+    "destination": "Cúcuta",
+    "cost": 85000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/copetran.svg",
+    "company": "Copetran",
+    "departureTime": "15:00",
+    "arrivalTime": "17:00",
+    "busType": "Basico"
+},
+{
+    "origin": "Cúcuta",
+    "destination": "Bogota",
+    "cost": 170000,
+    "imagen": "https://terminaldetransportepamplona.com/wp-content/uploads/2022/06/libertadores.png",
+    "company": "Libertadores",
+    "departureTime": "16:00",
+    "arrivalTime": "23:00",
+    "busType": "Preferencial"
+},
+{
+    "origin": "Bogota",
+    "destination": "Medellin",
+    "cost": 125000,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq47k1wNVQlCdXl5qRnzrJMVRlxGTrUmK-Vg&s",
+    "company": "Omega",
+    "departureTime": "17:00",
+    "arrivalTime": "21:00",
+    "busType": "Premium"
+},
+{
+    "origin": "Medellin",
+    "destination": "Cali",
+    "cost": 150000,
+    "imagen": "https://cdn.bookaway.com/media/files/5eef4b3b922b8d0519bcca77.jpeg",
+    "company": "Flota Magdalena",
+    "departureTime": "18:00",
+    "arrivalTime": "22:00",
+    "busType": "Basico"
+},
+{
+    "origin": "Cali",
+    "destination": "Barranquilla",
+    "cost": 170000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/ochoa.svg",
+    "company": "Rapido Ochoa",
+    "departureTime": "19:00",
+    "arrivalTime": "00:00",
+    "busType": "Preferencial"
+},
+{
+    "origin": "Barranquilla",
+    "destination": "Cartagena",
+    "cost": 90000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/bolivarianoRest.svg",
+    "company": "Expreso Bolivariano",
+    "departureTime": "20:00",
+    "arrivalTime": "21:30",
+    "busType": "Premium"
+},
+{
+    "origin": "Cartagena",
+    "destination": "Santa Marta",
+    "cost": 95000,
+    "imagen": "https://buscobus.com.co/wp-content/uploads/2017/04/expreso-brasilia.jpg",
+    "company": "Expreso Brasilia",
+    "departureTime": "08:00",
+    "arrivalTime": "10:00",
+    "busType": "Basico"
+},
+{
+    "origin": "Santa Marta",
+    "destination": "Bucaramanga",
+    "cost": 200000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/copetran.svg",
+    "company": "Copetran",
+    "departureTime": "09:00",
+    "arrivalTime": "15:00",
+    "busType": "Preferencial"
+},
+{
+    "origin": "Bucaramanga",
+    "destination": "Cúcuta",
+    "cost": 80000,
+    "imagen": "https://terminaldetransportepamplona.com/wp-content/uploads/2022/06/libertadores.png",
+    "company": "Libertadores",
+    "departureTime": "10:00",
+    "arrivalTime": "12:00",
+    "busType": "Premium"
+},
+{
+    "origin": "Cúcuta",
+    "destination": "Bogota",
+    "cost": 160000,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq47k1wNVQlCdXl5qRnzrJMVRlxGTrUmK-Vg&s",
+    "company": "Omega",
+    "departureTime": "11:00",
+    "arrivalTime": "18:00",
+    "busType": "Basico"
+},
+{
+    "origin": "Bogota",
+    "destination": "Medellin",
+    "cost": 140000,
+    "imagen": "https://cdn.bookaway.com/media/files/5eef4b3b922b8d0519bcca77.jpeg",
+    "company": "Flota Magdalena",
+    "departureTime": "12:00",
+    "arrivalTime": "16:00",
+    "busType": "Preferencial"
+},
+{
+    "origin": "Medellin",
+    "destination": "Cali",
+    "cost": 135000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/ochoa.svg",
+    "company": "Rapido Ochoa",
+    "departureTime": "13:00",
+    "arrivalTime": "17:00",
+    "busType": "Premium"
+},
+{
+    "origin": "Cali",
+    "destination": "Barranquilla",
+    "cost": 175000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/bolivarianoRest.svg",
+    "company": "Expreso Bolivariano",
+    "departureTime": "14:00",
+    "arrivalTime": "19:00",
+    "busType": "Basico"
+},
+{
+    "origin": "Barranquilla",
+    "destination": "Cartagena",
+    "cost": 85000,
+    "imagen": "https://buscobus.com.co/wp-content/uploads/2017/04/expreso-brasilia.jpg",
+    "company": "Expreso Brasilia",
+    "departureTime": "15:00",
+    "arrivalTime": "16:30",
+    "busType": "Preferencial"
+},
+{
+    "origin": "Cartagena",
+    "destination": "Santa Marta",
+    "cost": 100000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/copetran.svg",
+    "company": "Copetran",
+    "departureTime": "16:00",
+    "arrivalTime": "18:00",
+    "busType": "Premium"
+},
+{
+    "origin": "Santa Marta",
+    "destination": "Bucaramanga",
+    "cost": 190000,
+    "imagen": "https://terminaldetransportepamplona.com/wp-content/uploads/2022/06/libertadores.png",
+    "company": "Libertadores",
+    "departureTime": "17:00",
+    "arrivalTime": "23:00",
+    "busType": "Basico"
+},
+{
+    "origin": "Bucaramanga",
+    "destination": "Cúcuta",
+    "cost": 85000,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq47k1wNVQlCdXl5qRnzrJMVRlxGTrUmK-Vg&s",
+    "company": "Omega",
+    "departureTime": "18:00",
+    "arrivalTime": "20:00",
+    "busType": "Preferencial"
+},
+{
+    "origin": "Cúcuta",
+    "destination": "Bogota",
+    "cost": 170000,
+    "imagen": "https://cdn.bookaway.com/media/files/5eef4b3b922b8d0519bcca77.jpeg",
+    "company": "Flota Magdalena",
+    "departureTime": "19:00",
+    "arrivalTime": "02:00",
+    "busType": "Premium"
+},
+{
+    "origin": "Bogota",
+    "destination": "Medellin",
+    "cost": 130000,
+    "imagen": "https://cdn.pinbus.com/common/img/operadoras/svg/ochoa.svg",
+    "company": "Rapido Ochoa",
+    "departureTime": "20:00",
+    "arrivalTime": "00:00",
+    "busType": "Basico"
+}
+]

@@ -8,8 +8,7 @@ const TravelCalculator = () => {
   const [locations, setLocations] = useState([]);
 
   useEffect(() => {
-    // Puedes ajustar esto para obtener las ubicaciones desde una fuente externa o estática
-    setLocations(['Ciudad A', 'Ciudad B', 'Ciudad C', 'Ciudad D']);
+    setLocations(['Bogota', 'Medellin', 'Cali', 'Barranquilla', 'Cartagena', 'Santa Marta', 'Bucaramanga', 'Cúcuta']);
   }, []);
 
   const fetchTrips = async () => {
@@ -19,7 +18,7 @@ const TravelCalculator = () => {
       });
       setTrips(response.data);
     } catch (error) {
-      console.error('Error fetching trips:', error);
+      console.error('Error al al obtener datos:', error);
     }
   };
 

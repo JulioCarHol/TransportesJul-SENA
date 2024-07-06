@@ -1,6 +1,7 @@
 // src/components/TravelCalculator.jsx
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+
 import {
   Badge,
   Flex,
@@ -13,9 +14,11 @@ import {
   Tag,
   FormControl,
   FormLabel,
+  CheckboxGroup,
+  Checkbox
 } from "@chakra-ui/react";
 import { IntlProvider, FormattedNumber } from 'react-intl';
-import { CheckboxGroup, Checkbox } from "@chakra-ui/react";
+import Swal from 'sweetalert2';
 
 const CustomCard = React.forwardRef(({ children, ...rest }, ref) => (
   <Box p="1">
@@ -33,7 +36,7 @@ const TravelCalculator = () => {
   const [locations, setLocations] = useState([]);
 
   useEffect(() => {
-    setLocations(["Ciudad A", "Ciudad B", "Ciudad C", "Ciudad D"]);
+    setLocations(['Bogota', 'Medellin', 'Cali', 'Barranquilla', 'Cartagena', 'Santa Marta', 'Bucaramanga', 'Cúcuta']);
   }, []);
 
   const fetchTrips = async () => {
@@ -46,7 +49,7 @@ const TravelCalculator = () => {
       );
       setTrips(response.data);
     } catch (error) {
-      console.error("Error fetching trips:", error);
+      console.error("Error al obtener los datos:", error);
     }
   };
 
@@ -69,7 +72,7 @@ const TravelCalculator = () => {
 
   const addToFavorites = async (tripId) => {
     try {
-      const userId = localStorage.getItem('userId'); // Asume que almacenas el userId en localStorage al iniciar sesión
+      const userId = localStorage.getItem('userId');
       const response = await axios.post(
         `${process.env.REACT_APP_API_URL}/auth/favorites`,
         { userId, tripId },
@@ -81,10 +84,16 @@ const TravelCalculator = () => {
         }
       );
       if (response.status === 200) {
-        alert('Trip added to favorites');
+        Swal.fire({
+          position: 'center',
+          icon: 'success',
+          title: 'Ruta agregada a favoritos',
+          showConfirmButton: false,
+          timer: 1500
+        });
       }
     } catch (error) {
-      console.error("Error adding to favorites:", error);
+      console.error("Error al agregar a favoritos:", error);
     }
   };
 
@@ -190,20 +199,26 @@ const TravelCalculator = () => {
                   flexDirection="column"
                   mx="5"
                   color="#036F10"
+                  alignItems="center"
                 >
                   {trip.origin} - {trip.destination}
-                  <Badge ml="2" colorScheme="green" fontSize="0.8em" textAlign="center">
+                  <Badge ml="2" colorScheme="green" fontSize="0.8em" textAlign={"center"}>
                     {trip.company}
                   </Badge>
                 </Text>
 
                 <Box display="flex" flexDirection="column">
-                  <Text fontSize="md" mt="1" mx="80px">
-                    <CustomCard fontSize="1.5em" textAlign="center">
+                  <Text fontSize="md" mt="1" mx="80px" alignItems="center">
+                    <CustomCard fontSize="1.5em">
+                      <Text textAlign="center">
                       Salida: {trip.departureTime}
+                      </Text>
+                    
                     </CustomCard>
-                    <CustomCard fontSize="1.5em" textAlign="center">
+                    <CustomCard fontSize="1.5em" textAlign="center" display="flex">
+                      <Text textAlign="center">
                       Llegada: {trip.arrivalTime}
+                      </Text>
                     </CustomCard>
                   </Text>
                   <Text
@@ -232,7 +247,7 @@ const TravelCalculator = () => {
                     justifyContent="center"
                     paddingLeft="30px"
                     paddingRight="30px"
-                    onClick={() => addToFavorites(trip._id)} // Agregar a favoritos
+                    onClick={() => addToFavorites(trip._id)}
                   >
                     Agregar a favoritos
                   </Button>

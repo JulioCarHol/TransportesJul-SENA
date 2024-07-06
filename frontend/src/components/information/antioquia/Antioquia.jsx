@@ -6,10 +6,9 @@ import imageDescription from '../antioquia/images/antioquia_descripcion.webp';
 import image1 from '../antioquia/images/antioquia_turismo.jpg'
 import image2 from '../antioquia/images/antioquia_turismo2.jpg'
 import image3 from '../antioquia/images/antioquia_turismo3.jpg'
-import { Box, Badge, Image } from '@chakra-ui/react'
+import { Box, Badge, Image, Flex, SimpleGrid } from '@chakra-ui/react'
 import { StarIcon } from '@chakra-ui/icons';
-import { Flex } from "@chakra-ui/react"
-import { SimpleGrid } from '@chakra-ui/react'
+
 
 function Antioquia() {
     const property = {
@@ -52,14 +51,12 @@ function Antioquia() {
   </div>
 
   <div className="inicio-populares">
-    <div>
-      <h1>Mas Populares</h1>
-    </div>
+  
     <Flex display='flex' width='auto' justifyContent="center" mt='10' mb='20' >
 
 <SimpleGrid columns={3} spacing={20} minChildWidth='200px' display="flex"  >
 
-  <Box maxW='sm' borderWidth='1px' borderRadius='lg' overflow='hidden'>
+  <Box maxW='sm' borderWidth='1px' borderRadius='lg' overflow='hidden' backgroundColor="white">
       <Image src={property.imageUrl1} alt={property.imageAlt1} />
       <Box p='6'>
         <Box display='flex' alignItems='baseline'>
@@ -98,7 +95,7 @@ function Antioquia() {
       </Box>
     </Box>
  
-    <Box maxW='sm' borderWidth='1px' borderRadius='lg' overflow='hidden'>
+    <Box maxW='sm' borderWidth='1px' borderRadius='lg' overflow='hidden' backgroundColor="white">
       <Image src={property.imageUrl2} alt={property.imageAlt2} />
       <Box p='6'>
         <Box display='flex' alignItems='baseline'>
@@ -139,7 +136,7 @@ function Antioquia() {
 
 
 
-   <Box maxW='sm' borderWidth='1px' borderRadius='lg' overflow='hidden'>
+   <Box maxW='sm' borderWidth='1px' borderRadius='lg' overflow='hidden' backgroundColor="white">
       <Image src={property.imageUrl3} alt={property.imageAlt3} />
       <Box p='6'>
         <Box display='flex' alignItems='baseline'>
